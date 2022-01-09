@@ -68,7 +68,7 @@ public class QrCodeController {
 				+ "	<h1>QR Code Generator</h1>\r\n"
 				+ "	<p>Generated image:</p>\r\n"
 				+ "	\r\n"
-				+ "	<img src=\"/imageqrcode/${qrtext}\" alt=\"place holder for image\"\">\r\n"
+				+ "	<img src=\"/imageqrcode/" + qrText + "\" alt=\"place holder for image\"\">\r\n"
 				+ "	\r\n"
 				+ "	<p>" + qrText + "</p>\r\n"
 				+ "	</center>\r\n"
